@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-10-02T18:57:28 EDT" name="Default suite" finished-at="2020-10-02T18:57:36 EDT" duration-ms="7628">
+  <suite started-at="2020-10-02T19:04:35 EDT" name="Default suite" finished-at="2020-10-02T19:04:45 EDT" duration-ms="10104">
     <groups>
     </groups>
-    <test started-at="2020-10-02T18:57:28 EDT" name="Default test" finished-at="2020-10-02T18:57:36 EDT" duration-ms="7628">
+    <test started-at="2020-10-02T19:04:35 EDT" name="Default test" finished-at="2020-10-02T19:04:45 EDT" duration-ms="10104">
       <class name="com.Ebay.TestCases.TC_Login">
-        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.Ebay.TestCases.TC_Login@20f5239f]" started-at="2020-10-02T18:57:28 EDT" name="SetUp" finished-at="2020-10-02T18:57:33 EDT" duration-ms="4261" status="PASS">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.Ebay.TestCases.TC_Login@20f5239f]" started-at="2020-10-02T19:04:35 EDT" name="SetUp" finished-at="2020-10-02T19:04:40 EDT" duration-ms="4245" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method signature="LoginTest()[pri:0, instance:com.Ebay.TestCases.TC_Login@20f5239f]" started-at="2020-10-02T18:57:33 EDT" name="LoginTest" finished-at="2020-10-02T18:57:35 EDT" duration-ms="2702" status="PASS">
+        <test-method signature="LoginTest()[pri:0, instance:com.Ebay.TestCases.TC_Login@20f5239f]" started-at="2020-10-02T19:04:40 EDT" name="LoginTest" finished-at="2020-10-02T19:04:44 EDT" duration-ms="4732" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginTest -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.Ebay.TestCases.TC_Login@20f5239f]" started-at="2020-10-02T18:57:35 EDT" name="TearDown" finished-at="2020-10-02T18:57:36 EDT" duration-ms="639" status="PASS">
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.Ebay.TestCases.TC_Login@20f5239f]" started-at="2020-10-02T19:04:44 EDT" name="TearDown" finished-at="2020-10-02T19:04:45 EDT" duration-ms="1099" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->

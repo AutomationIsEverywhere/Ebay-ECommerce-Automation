@@ -18,7 +18,7 @@ public class BaseClass {
 	@BeforeClass
 	public void SetUp()
 	{
-		System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"\\WebDrivers\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"\\Drivers\\chromedriver.exe");
 		driver=new ChromeDriver();
 		logger=Logger.getLogger("Flipkart Automation");
 		//PropertyConfigurator.configure("Log4j.properties");
