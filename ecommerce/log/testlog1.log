@@ -1,0 +1,10 @@
+2020-10-05 14:43:39,318 [main] INFO Ebay Automation - Sign In link clicked
+2020-10-05 14:47:10,587 [main] INFO Ebay Automation - Login Test Passed successfully
+2020-10-05 14:52:55,808 [main] INFO Ebay Automation - Sign In link clicked
+2020-10-05 14:52:55,910 [main] INFO Ebay Automation - Captcha present.....Manual Verification
+2020-10-05 14:54:36,019 [main] INFO Ebay Automation - Typed in the username
+2020-10-05 14:54:40,123 [main] INFO Ebay Automation - Typed in the password
+2020-10-05 14:54:46,835 [main] INFO Ebay Automation - Clicked the login button
+2020-10-05 14:54:46,836 [main] INFO Ebay Automation - Captcha present.....Manual Verification
+2020-10-05 14:56:26,916 [main] INFO Ebay Automation - Login Successfull....
+2020-10-05 14:56:26,918 [main] INFO Ebay Automation - Login Test Passed successfully

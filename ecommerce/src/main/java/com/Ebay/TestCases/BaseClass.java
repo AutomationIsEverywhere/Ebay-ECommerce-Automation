@@ -13,7 +13,7 @@ public class BaseClass {
 	public String email="rahulbhagwat94@gmail.com";
 	public String password="Suppu34$";
 	public static WebDriver driver;
-	public static Logger logger;
+	static Logger logger = Logger.getLogger(BaseClass.class);
 	
 	@BeforeClass
 	public void SetUp()
