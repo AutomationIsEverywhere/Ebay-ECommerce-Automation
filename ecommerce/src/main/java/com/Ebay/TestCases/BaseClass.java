@@ -5,23 +5,26 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.BeforeClass;
 
+import com.Ebay.Utilities.ReadConfig;
+
 import org.testng.annotations.AfterClass;
 
 public class BaseClass {
 
-	public String baseURL="https://www.ebay.com/";
-	public String email="rahulbhagwat94@gmail.com";
-	public String password="Suppu34$";
+	ReadConfig config=new ReadConfig();
+	public String baseURL=config.getAppURL();
+	public String email=config.getUsername();
+	public String password=config.getChromePath();
 	public static WebDriver driver;
 	static Logger logger = Logger.getLogger(BaseClass.class);
 	
 	@BeforeClass
 	public void SetUp()
 	{
-		System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"\\Drivers\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver",config.getChromePath());
 		driver=new ChromeDriver();
 		logger=Logger.getLogger("Ebay Automation");
-		//PropertyConfigurator.configure("Log4j.properties");
+		
 		
 	}
 	
