@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="ecommerce">
+   <listeners>
+   <listener class-name="com.Ebay.Utilities.Reporting"/>
+   </listeners>
+   <test name="Ecommerce Tests">
+   <parameter name="browser" value="chrome"/>
+   <classes>
+   <class name="com.Ebay.TestCases.TC_Login"/>
+   </classes>
+   </test>
+</suite>

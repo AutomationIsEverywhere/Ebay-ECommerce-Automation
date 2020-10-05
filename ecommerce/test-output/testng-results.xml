@@ -2,24 +2,31 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-10-05T14:52:47 EDT" name="Default suite" finished-at="2020-10-05T14:56:27 EDT" duration-ms="220599">
+  <suite started-at="2020-10-05T19:07:54 EDT" name="ecommerce" finished-at="2020-10-05T19:08:42 EDT" duration-ms="47857">
     <groups>
     </groups>
-    <test started-at="2020-10-05T14:52:47 EDT" name="Default test" finished-at="2020-10-05T14:56:27 EDT" duration-ms="220599">
+    <test started-at="2020-10-05T19:07:54 EDT" name="Ecommerce Tests" finished-at="2020-10-05T19:08:42 EDT" duration-ms="47857">
       <class name="com.Ebay.TestCases.TC_Login">
-        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.Ebay.TestCases.TC_Login@70ed52de]" started-at="2020-10-05T14:52:47 EDT" name="SetUp" finished-at="2020-10-05T14:52:51 EDT" duration-ms="4398" status="PASS">
+        <test-method is-config="true" signature="SetUp(java.lang.String)[pri:0, instance:com.Ebay.TestCases.TC_Login@302c971f]" started-at="2020-10-05T19:07:54 EDT" name="SetUp" finished-at="2020-10-05T19:08:01 EDT" duration-ms="6460" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method signature="LoginTest()[pri:0, instance:com.Ebay.TestCases.TC_Login@70ed52de]" started-at="2020-10-05T14:52:51 EDT" name="LoginTest" finished-at="2020-10-05T14:56:26 EDT" duration-ms="215497" status="PASS">
+        <test-method signature="LoginTest()[pri:0, instance:com.Ebay.TestCases.TC_Login@302c971f]" started-at="2020-10-05T19:08:01 EDT" name="LoginTest" finished-at="2020-10-05T19:08:41 EDT" duration-ms="40521" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginTest -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.Ebay.TestCases.TC_Login@70ed52de]" started-at="2020-10-05T14:56:26 EDT" name="TearDown" finished-at="2020-10-05T14:56:27 EDT" duration-ms="676" status="PASS">
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.Ebay.TestCases.TC_Login@302c971f]" started-at="2020-10-05T19:08:41 EDT" name="TearDown" finished-at="2020-10-05T19:08:42 EDT" duration-ms="716" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
       </class> <!-- com.Ebay.TestCases.TC_Login -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Ecommerce Tests -->
+  </suite> <!-- ecommerce -->
 </testng-results>

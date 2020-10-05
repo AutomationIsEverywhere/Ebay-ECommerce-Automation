@@ -18,7 +18,7 @@ public class TC_Login extends BaseClass{
 	@Test
 	public void LoginTest() throws InterruptedException
 	{
-		driver.get(baseURL);
+		
 		LoginPage login=new LoginPage(driver);
 		
 	    Thread.sleep(2000);
