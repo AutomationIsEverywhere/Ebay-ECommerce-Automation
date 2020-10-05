@@ -23,17 +23,29 @@ public class LoginPage {
     @FindBy(linkText="Sign in")
     WebElement LoginLink;
     
-    @FindBy(linkText="uid")
+    @FindBy(xpath="//*[@id='userid']")
     @CacheLookup
     WebElement FUsername;
     
-    @FindBy(name="password")
+    @FindBy(xpath="//*[@id='pass']")
     @CacheLookup
     WebElement FPassword;
     
-    @FindBy(name="loginButton")
+    @FindBy(name="signin-continue-btn")
+    @CacheLookup
+    WebElement ContinueButton;
+    
+    
+    
+    @FindBy(name="sgnBt")
     @CacheLookup
     WebElement LoginButton;
+    
+
+    public void ClickContinueButton()
+    {
+    	ContinueButton.click();
+    }
     
     public void ClickLink()
     {
