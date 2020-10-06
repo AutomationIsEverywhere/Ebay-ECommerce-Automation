@@ -7,11 +7,11 @@ Extent Reports are used for reporting the test cases and creating an interactive
 
 
 Technologies / Tools / Languages:
-Java 
-Maven 
-testNG
-Apache POI
-Extent Reports
-Log4j 
+Java ,
+Maven ,
+testNG,
+Apache POI,
+Extent Reports,
+Log4j ,
 Selenium Webdriver
 
