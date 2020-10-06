@@ -9,6 +9,7 @@ import com.Ebay.PageObjects.LoginPage;
 
 import static org.testng.Assert.assertTrue;
 
+import java.io.IOException;
 import java.lang.*;
 
 
@@ -16,7 +17,7 @@ public class TC_Login extends BaseClass{
 
 	
 	@Test
-	public void LoginTest() throws InterruptedException
+	public void LoginTest() throws InterruptedException, IOException
 	{
 		
 		LoginPage login=new LoginPage(driver);
@@ -65,9 +66,11 @@ public class TC_Login extends BaseClass{
 		}
 		else
 		{
+			captureScreen(driver,"LoginTest");
 			logger.info("Login Failed....");
 			logger.info("Login Test Failed");
 			System.out.println("Login Test Failed");
+			
 		}
 	}
 }
