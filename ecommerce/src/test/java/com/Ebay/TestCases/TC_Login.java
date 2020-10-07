@@ -97,7 +97,7 @@ public class TC_Login extends BaseClass{
 	@DataProvider(name="LoginData")
 	String [][] getData() throws IOException
 	{
-		String path=System.getProperty("user.dir")+"/src/main/java/com/Ebay/TestData/LoginData.xlsx";
+		String path=System.getProperty("user.dir")+"/src/test/java/com/Ebay/TestData/LoginData.xlsx";
 		
 		int rownum=XLUtilities.getRowCount(path, "Sheet1");
 		int colcount=XLUtilities.getCellCount(path,"Sheet1",1);

@@ -9,7 +9,7 @@
     <classes>
       <class name="com.Ebay.TestCases.TC_Login">
         <methods>
-          <include name="LoginTest" invocation-numbers="0 1 3 4"/>
+          <include name="LoginTest"/>
           <include name="TearDown"/>
           <include name="SetUp"/>
         </methods>
