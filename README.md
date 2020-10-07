@@ -1,4 +1,4 @@
-# Ebay-ECommerce-Automation 
+# ECommerce-Automation Sample Framework
 
 This is a Mini-Ecommerce Automation Project which can be used as a refresher for framework concepts in UI Automation.
 
