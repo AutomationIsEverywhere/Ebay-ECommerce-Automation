@@ -35,6 +35,8 @@ public class LoginPage {
     @CacheLookup
     WebElement ContinueButton;
     
+    @FindBy(xpath="//*[@id='gh-uo']/a")
+    WebElement LogoutLink;
     
     
     @FindBy(name="sgnBt")
@@ -63,5 +65,9 @@ public class LoginPage {
     public void ClickLogin()
     {
     	LoginButton.click();
+    }
+    public void ClickLogout()
+    {
+    	LogoutLink.click();
     }
 }

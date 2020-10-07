@@ -2,6 +2,7 @@ package com.Ebay.TestCases;
 
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
@@ -53,8 +54,11 @@ public class TC_Login extends BaseClass{
 	    	System.out.println("Login Test Failed");
 	    	logger.info("Login Test Failed");
 	    	captureScreen(driver,"LoginTest");
-	    	//Assert.assertTrue(false);
+	    	
 	    	driver.navigate().to("http://ebay.com");
+	    	Thread.sleep(10000);
+	   	 
+	    	Assert.assertTrue(false);
 			
 			
 	    }
@@ -70,7 +74,7 @@ public class TC_Login extends BaseClass{
 		
 		//Captcha Verification process Time
 		logger.info("Captcha present.....Manual Verification");	
-		Thread.sleep(15000);
+		Thread.sleep(20000);
 		
 		Boolean ButtonPresent=driver.findElement(By.xpath("//button[@id='gh-ug']")).isDisplayed();
 		if(ButtonPresent.equals(true))
@@ -79,6 +83,13 @@ public class TC_Login extends BaseClass{
 			logger.info("Login Successfull....");
 			logger.info("Login Test Passed successfully");
 			System.out.println("Login Test Passed");
+			Thread.sleep(3000);
+			WebElement ButtonP=driver.findElement(By.xpath("//button[@id='gh-ug']"));
+			ButtonP.click();
+			Thread.sleep(3000);
+			login.ClickLogout();
+			driver.navigate().to("http://ebay.com");
+			
 		}
 	    }
 		

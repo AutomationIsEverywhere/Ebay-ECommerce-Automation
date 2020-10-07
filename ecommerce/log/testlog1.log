@@ -122,3 +122,114 @@
 2020-10-06 23:51:30,271 [main] INFO Ebay Automation - Typed in the username
 2020-10-06 23:51:32,350 [main] INFO Ebay Automation - Login Test Failed
 2020-10-06 23:51:36,407 [main] INFO Ebay Automation - Sign In link clicked
+2020-10-07 10:50:51,970 [main] INFO Ebay Automation - Sign In link clicked
+2020-10-07 10:50:52,011 [main] INFO Ebay Automation - Captcha present.....Manual Verification
+2020-10-07 10:51:07,549 [main] INFO Ebay Automation - Typed in the username
+2020-10-07 10:51:19,630 [main] INFO Ebay Automation - Login Test Failed
+2020-10-07 10:51:23,396 [main] INFO Ebay Automation - Sign In link clicked
+2020-10-07 10:51:23,425 [main] INFO Ebay Automation - Captcha present.....Manual Verification
+2020-10-07 10:51:38,496 [main] INFO Ebay Automation - Typed in the username
+2020-10-07 10:51:50,572 [main] INFO Ebay Automation - Login Test Failed
+2020-10-07 10:51:53,677 [main] INFO Ebay Automation - Sign In link clicked
+2020-10-07 11:05:36,649 [main] INFO Ebay Automation - Sign In link clicked
+2020-10-07 11:05:36,692 [main] INFO Ebay Automation - Captcha present.....Manual Verification
+2020-10-07 11:05:51,760 [main] INFO Ebay Automation - Typed in the username
+2020-10-07 11:06:03,836 [main] INFO Ebay Automation - Login Test Failed
+2020-10-07 11:06:18,035 [main] INFO Ebay Automation - Sign In link clicked
+2020-10-07 11:06:18,064 [main] INFO Ebay Automation - Captcha present.....Manual Verification
+2020-10-07 11:06:33,133 [main] INFO Ebay Automation - Typed in the username
+2020-10-07 11:06:45,211 [main] INFO Ebay Automation - Login Test Failed
+2020-10-07 11:06:58,895 [main] INFO Ebay Automation - Sign In link clicked
+2020-10-07 11:06:58,920 [main] INFO Ebay Automation - Captcha present.....Manual Verification
+2020-10-07 11:07:13,996 [main] INFO Ebay Automation - Typed in the username
+2020-10-07 11:07:28,109 [main] INFO Ebay Automation - Typed in the password
+2020-10-07 11:07:30,739 [main] INFO Ebay Automation - Clicked the login button
+2020-10-07 11:07:30,739 [main] INFO Ebay Automation - Captcha present.....Manual Verification
+2020-10-07 11:09:25,569 [main] INFO Ebay Automation - Sign In link clicked
+2020-10-07 11:09:25,617 [main] INFO Ebay Automation - Captcha present.....Manual Verification
+2020-10-07 11:09:40,683 [main] INFO Ebay Automation - Typed in the username
+2020-10-07 11:09:52,768 [main] INFO Ebay Automation - Login Test Failed
+2020-10-07 11:10:06,623 [main] INFO Ebay Automation - Sign In link clicked
+2020-10-07 11:10:06,651 [main] INFO Ebay Automation - Captcha present.....Manual Verification
+2020-10-07 11:10:21,719 [main] INFO Ebay Automation - Typed in the username
+2020-10-07 11:10:33,807 [main] INFO Ebay Automation - Login Test Failed
+2020-10-07 11:10:47,418 [main] INFO Ebay Automation - Sign In link clicked
+2020-10-07 11:10:47,446 [main] INFO Ebay Automation - Captcha present.....Manual Verification
+2020-10-07 11:11:02,527 [main] INFO Ebay Automation - Typed in the username
+2020-10-07 11:11:16,634 [main] INFO Ebay Automation - Typed in the password
+2020-10-07 11:11:19,157 [main] INFO Ebay Automation - Clicked the login button
+2020-10-07 11:11:19,158 [main] INFO Ebay Automation - Captcha present.....Manual Verification
+2020-10-07 11:11:39,213 [main] INFO Ebay Automation - Login Successfull....
+2020-10-07 11:11:39,214 [main] INFO Ebay Automation - Login Test Passed successfully
+2020-10-07 11:22:02,736 [main] INFO Ebay Automation - Sign In link clicked
+2020-10-07 11:22:02,784 [main] INFO Ebay Automation - Captcha present.....Manual Verification
+2020-10-07 11:22:17,845 [main] INFO Ebay Automation - Typed in the username
+2020-10-07 11:22:29,955 [main] INFO Ebay Automation - Login Test Failed
+2020-10-07 11:22:43,588 [main] INFO Ebay Automation - Sign In link clicked
+2020-10-07 11:22:43,616 [main] INFO Ebay Automation - Captcha present.....Manual Verification
+2020-10-07 11:22:58,694 [main] INFO Ebay Automation - Typed in the username
+2020-10-07 11:23:10,766 [main] INFO Ebay Automation - Login Test Failed
+2020-10-07 11:23:24,990 [main] INFO Ebay Automation - Sign In link clicked
+2020-10-07 11:23:25,016 [main] INFO Ebay Automation - Captcha present.....Manual Verification
+2020-10-07 11:23:40,103 [main] INFO Ebay Automation - Typed in the username
+2020-10-07 11:23:54,211 [main] INFO Ebay Automation - Typed in the password
+2020-10-07 11:23:56,669 [main] INFO Ebay Automation - Clicked the login button
+2020-10-07 11:23:56,669 [main] INFO Ebay Automation - Captcha present.....Manual Verification
+2020-10-07 11:24:16,710 [main] INFO Ebay Automation - Login Successfull....
+2020-10-07 11:24:16,710 [main] INFO Ebay Automation - Login Test Passed successfully
+2020-10-07 11:33:24,502 [main] INFO Ebay Automation - Sign In link clicked
+2020-10-07 11:33:24,552 [main] INFO Ebay Automation - Captcha present.....Manual Verification
+2020-10-07 11:33:39,631 [main] INFO Ebay Automation - Typed in the username
+2020-10-07 11:33:51,703 [main] INFO Ebay Automation - Login Test Failed
+2020-10-07 11:34:05,487 [main] INFO Ebay Automation - Sign In link clicked
+2020-10-07 11:34:05,515 [main] INFO Ebay Automation - Captcha present.....Manual Verification
+2020-10-07 11:34:20,580 [main] INFO Ebay Automation - Typed in the username
+2020-10-07 11:34:32,656 [main] INFO Ebay Automation - Login Test Failed
+2020-10-07 11:34:47,151 [main] INFO Ebay Automation - Sign In link clicked
+2020-10-07 11:34:47,177 [main] INFO Ebay Automation - Captcha present.....Manual Verification
+2020-10-07 11:35:02,261 [main] INFO Ebay Automation - Typed in the username
+2020-10-07 11:35:16,379 [main] INFO Ebay Automation - Typed in the password
+2020-10-07 11:35:18,889 [main] INFO Ebay Automation - Clicked the login button
+2020-10-07 11:35:18,889 [main] INFO Ebay Automation - Captcha present.....Manual Verification
+2020-10-07 11:35:38,936 [main] INFO Ebay Automation - Login Successfull....
+2020-10-07 11:35:38,936 [main] INFO Ebay Automation - Login Test Passed successfully
+2020-10-07 11:39:26,360 [main] INFO Ebay Automation - Sign In link clicked
+2020-10-07 11:39:26,401 [main] INFO Ebay Automation - Captcha present.....Manual Verification
+2020-10-07 11:39:41,472 [main] INFO Ebay Automation - Typed in the username
+2020-10-07 11:39:53,569 [main] INFO Ebay Automation - Login Test Failed
+2020-10-07 11:40:08,841 [main] INFO Ebay Automation - Sign In link clicked
+2020-10-07 11:40:08,868 [main] INFO Ebay Automation - Captcha present.....Manual Verification
+2020-10-07 11:40:23,973 [main] INFO Ebay Automation - Typed in the username
+2020-10-07 11:40:36,082 [main] INFO Ebay Automation - Login Test Failed
+2020-10-07 11:40:49,588 [main] INFO Ebay Automation - Sign In link clicked
+2020-10-07 11:40:49,615 [main] INFO Ebay Automation - Captcha present.....Manual Verification
+2020-10-07 11:41:04,710 [main] INFO Ebay Automation - Typed in the username
+2020-10-07 11:41:18,824 [main] INFO Ebay Automation - Typed in the password
+2020-10-07 11:41:21,384 [main] INFO Ebay Automation - Clicked the login button
+2020-10-07 11:41:21,384 [main] INFO Ebay Automation - Captcha present.....Manual Verification
+2020-10-07 11:41:41,427 [main] INFO Ebay Automation - Login Successfull....
+2020-10-07 11:41:41,428 [main] INFO Ebay Automation - Login Test Passed successfully
+2020-10-07 11:44:38,097 [main] INFO Ebay Automation - Sign In link clicked
+2020-10-07 11:44:38,140 [main] INFO Ebay Automation - Captcha present.....Manual Verification
+2020-10-07 11:44:53,203 [main] INFO Ebay Automation - Typed in the username
+2020-10-07 11:45:05,285 [main] INFO Ebay Automation - Login Test Failed
+2020-10-07 11:45:19,265 [main] INFO Ebay Automation - Sign In link clicked
+2020-10-07 11:45:19,296 [main] INFO Ebay Automation - Captcha present.....Manual Verification
+2020-10-07 11:46:17,455 [main] INFO Ebay Automation - Sign In link clicked
+2020-10-07 11:46:17,496 [main] INFO Ebay Automation - Captcha present.....Manual Verification
+2020-10-07 11:46:32,580 [main] INFO Ebay Automation - Typed in the username
+2020-10-07 11:46:44,656 [main] INFO Ebay Automation - Login Test Failed
+2020-10-07 11:46:58,744 [main] INFO Ebay Automation - Sign In link clicked
+2020-10-07 11:46:58,772 [main] INFO Ebay Automation - Captcha present.....Manual Verification
+2020-10-07 11:47:13,869 [main] INFO Ebay Automation - Typed in the username
+2020-10-07 11:47:25,940 [main] INFO Ebay Automation - Login Test Failed
+2020-10-07 11:47:39,569 [main] INFO Ebay Automation - Sign In link clicked
+2020-10-07 11:47:39,596 [main] INFO Ebay Automation - Captcha present.....Manual Verification
+2020-10-07 11:47:54,667 [main] INFO Ebay Automation - Typed in the username
+2020-10-07 11:48:08,774 [main] INFO Ebay Automation - Typed in the password
+2020-10-07 11:48:11,185 [main] INFO Ebay Automation - Clicked the login button
+2020-10-07 11:48:11,185 [main] INFO Ebay Automation - Captcha present.....Manual Verification
+2020-10-07 11:48:31,228 [main] INFO Ebay Automation - Login Successfull....
+2020-10-07 11:48:31,228 [main] INFO Ebay Automation - Login Test Passed successfully
+2020-10-07 11:48:41,982 [main] INFO Ebay Automation - Sign In link clicked
+2020-10-07 11:48:42,011 [main] INFO Ebay Automation - Captcha present.....Manual Verification
