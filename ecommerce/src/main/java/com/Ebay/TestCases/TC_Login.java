@@ -3,9 +3,11 @@ package com.Ebay.TestCases;
 
 import org.openqa.selenium.By;
 import org.testng.Assert;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import com.Ebay.PageObjects.LoginPage;
+import com.Ebay.Utilities.XLUtilities;
 
 import static org.testng.Assert.assertTrue;
 
@@ -16,8 +18,8 @@ import java.lang.*;
 public class TC_Login extends BaseClass{
 
 	
-	@Test
-	public void LoginTest() throws InterruptedException, IOException
+	@Test(dataProvider="LoginData")
+	public void LoginTest(String user,String pass) throws InterruptedException, IOException
 	{
 		
 		LoginPage login=new LoginPage(driver);
@@ -38,14 +40,14 @@ public class TC_Login extends BaseClass{
 	    	Thread.sleep(3000);
 	    }
 	    
-	    login.TypeUsername(email);
+	    login.TypeUsername(user);
 	    logger.info("Typed in the username");	
 	    Thread.sleep(2000);
 	    
 	    login.ClickContinueButton();
 	    
 	    Thread.sleep(2000);
-	    login.TypePassword(password);    
+	    login.TypePassword(pass);    
 	    logger.info("Typed in the password");	
 	    Thread.sleep(2000);
 	    
@@ -72,5 +74,25 @@ public class TC_Login extends BaseClass{
 			System.out.println("Login Test Failed");
 			
 		}
+	}
+	@DataProvider(name="LoginData")
+	String [][] getData() throws IOException
+	{
+		String path=System.getProperty("user.dir")+"/src/main/java/com/Ebay/TestData/LoginData.xlsx";
+		
+		int rownum=XLUtilities.getRowCount(path, "Sheet1");
+		int colcount=XLUtilities.getCellCount(path,"Sheet1",1);
+		
+		String logindata[][]=new String[rownum][colcount];
+		
+		for(int i=1;i<=rownum;i++)
+		{
+			for(int j=0;j<colcount;j++)
+			{
+				logindata[i-1][j]=XLUtilities.getCellData(path,"Sheet1", i,j);//1 0
+			}
+				
+		}
+	return logindata;
 	}
 }
