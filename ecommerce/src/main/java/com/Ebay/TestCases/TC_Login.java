@@ -35,6 +35,7 @@ public class TC_Login extends BaseClass{
 	    	logger.info("Captcha present.....Manual Verification");	
 	    	Thread.sleep(15000);
 	    }
+	    
 	    else
 	    {
 	    	Thread.sleep(3000);
@@ -45,7 +46,20 @@ public class TC_Login extends BaseClass{
 	    Thread.sleep(2000);
 	    
 	    login.ClickContinueButton();
-	    
+	   Thread.sleep(10000);
+	 
+	    if(driver.findElement(By.xpath("//*[@id='pass']")).isDisplayed()==false)
+	    {
+	    	System.out.println("Login Test Failed");
+	    	logger.info("Login Test Failed");
+	    	captureScreen(driver,"LoginTest");
+	    	//Assert.assertTrue(false);
+	    	driver.navigate().to("http://ebay.com");
+			
+			
+	    }
+	    else
+	    {
 	    Thread.sleep(2000);
 	    login.TypePassword(pass);    
 	    logger.info("Typed in the password");	
@@ -66,14 +80,8 @@ public class TC_Login extends BaseClass{
 			logger.info("Login Test Passed successfully");
 			System.out.println("Login Test Passed");
 		}
-		else
-		{
-			captureScreen(driver,"LoginTest");
-			logger.info("Login Failed....");
-			logger.info("Login Test Failed");
-			System.out.println("Login Test Failed");
-			
-		}
+	    }
+		
 	}
 	@DataProvider(name="LoginData")
 	String [][] getData() throws IOException
